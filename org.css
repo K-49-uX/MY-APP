@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+
+}
+.logo img{
+  width: 500px;
+  height: 300px;
+}

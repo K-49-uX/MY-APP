@@ -1,0 +1,11 @@
+ul{
+  color: rgb(243, 18, 194);
+  list-style-type: square;
+}
+li:nth-child(3){
+  list-style-type: circle;
+  color: red;
+}
+li:nth-child(3)::marker{
+  content:"🍊";
+}

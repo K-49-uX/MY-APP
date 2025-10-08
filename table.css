@@ -1,0 +1,26 @@
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin: auto;
+  background-color: white;
+
+}
+th,td{
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+tr th{
+  background-color:green;
+  color: white;
+}
+.break{
+  background-color: yellow;
+}
+.timetable{
+  margin-top: 20px;
+}
+h1{
+  text-align: center;
+  border-bottom: 2px solid #666;
+}

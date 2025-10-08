@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: black;
+  color: yellow;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  border-bottom:3px solid yellow;
+}
+.navlink{
+  display: inline;
+}
+.menu li {
+  display: inline;
+  list-style: none;
+  /* margin: 0 10px; */
+}
+.menu li a{
+  text-decoration: none;
+  /* border: 1px solid yellow; */
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 20px;
+  color: white;
+  margin: 0 20px;
+}
+.menu #j{
+  color: yellow;
+}
+.hero{
+  text-align: center;
+  margin-top: 6em;
+}
+.text{
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+.tex{
+  color: white;
+  font-size: 30px;
+}
+.btn{
+  margin-top: 20px;
+}
+.btn button{
+  width: 15vw;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 30px;
+  font-weight: 700;
+  background-color: yellow;
+}
+.btn .btn2{
+  background-color: transparent;
+  border: 1px solid yellow;
+  color: yellow;
+}
+.row{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.mine img{
+  width: 300px;
+  height: 300px;
+  border:2px solid yellow;
+  border-radius: 100%;
+}
+.mine{
+  margin: 0 50px;
+}
+.mine button{
+  margin: 20px;
+  padding: 20px;
+  background-color:yellow ;
+  border-radius: 30px;
+}
+.mine h1{
+  font-size: 30px;
+}
+.mine p{
+  font-size: 20px;
+  color: white;
+}
+
+
+
+
+
+.txt-container{
+  /* background-color: rgb(117, 117, 117); */
+  margin-top: 30px;
+}
+.title{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.eddy{
+  padding: 10px;
+  margin-top: 30px;
+  border: 2px solid silver;
+  margin: 20px;
+}
+.eddy a{
+  color: yellow;
+  text-decoration: none;
+  list-style: none;
+}
+.eddy h1{
+  color:white;
+}
+.eddy p{
+  color: white;
+}
+.head{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* font-size: 30px; */
+  margin-top: 30px;
+}
+.sane{
+  margin-left:-25%;
+}

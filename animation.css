@@ -1,0 +1,70 @@
+.box{
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 0, 234, 0.973);
+  color: darkblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: slideright 5s ease-in-out infinite ;
+  /* animation: changebg 10s infinite alternate; */
+}
+@keyframes slideright {
+ 0%{
+  transform: translateX(0%);
+ }
+  25%{
+    transform: translateX(300%);
+  }
+
+  50%{
+    transform: translateX(600%);
+  }
+  75%{
+    transform: translateX(900%);
+  }
+
+  100%{
+    transform: translateX(1200%);
+  }
+  125%{
+    transform: translateX(1500%);
+  }
+  150%{
+    transform: translateX(1800%);
+  }
+
+
+  0%{
+    background-color: rgba(255, 0, 234, 0.973);
+    color: darkblue;
+  }
+  25%{
+    background-color: rgba(0, 255, 213, 0.973);
+    color: darkred;
+  }
+  50%{
+    background-color: rgba(255, 255, 0, 0.973);
+    color: darkgreen;
+  }
+  75%{
+    background-color: rgba(0, 0, 255, 0.973);
+    color: darkorange;
+  }
+  100%{
+    background-color: rgba(255, 0, 234, 0.973);
+    color: darkblue;
+  }
+  125%{
+    background-color: rgba(0, 255, 21, 0.973);
+    color: rgb(37, 1, 1);
+  }
+  150%{
+    background-color: rgba(250, 11, 23, 0.973);
+    color: rgb(185, 5, 125);
+  }
+
+}
+@keyframes changebg {
+  
+}
